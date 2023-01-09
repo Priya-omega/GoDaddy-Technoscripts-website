@@ -1,0 +1,95 @@
+$nav: #0190cf;
+
+.topbar {
+    position: sticky;
+    top: 0rem;
+    z-index: 1;
+    background-color: $nav;
+    height: 2rem;
+    color: white;
+    margin: 0;
+    text-align: left;
+
+    span {
+        // margin: 0.69rem;
+        padding: 0 0.3rem;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+}
+
+.topbarcontainer {
+
+    .span1 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-left: 5%;
+    }
+
+    .subtop {
+       float: right;
+    //    margin-top: -0.3rem;
+        margin-right: 5.1%;
+    }
+
+}
+
+.phoneicon {
+    position: relative;
+    top: 0.1rem;
+    color: #ffab1f;
+}
+
+.mailicon {
+    position: relative;
+    top: 0.25rem;
+    font-size: 1.2rem;
+    color: #ffab1f;
+}
+
+.handicon {
+    position: relative;
+    top: 0.2rem;
+    font-size: 1.2rem;
+    color: #ffab1f;
+}
+
+// ===================================== Mobile =================================================
+
+
+
+@media screen and (max-width:700px) {
+
+    .topbar {
+        width: 100%;
+        position: sticky;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+ 
+
+        .topbarcontainer {
+            width: 100%;
+            margin: 0;
+
+            .span1 {
+                display: none;
+            }
+
+            .subtop {
+                width: 100%;
+                margin: 0;
+                float: none;
+
+                span {
+                    // margin-top: -2rem;
+                    padding: 0 0.3rem;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+
+                }
+            }
+        }
+    }
+}
