@@ -1,0 +1,313 @@
+$formbg: #c7d6dd;
+$formtext: white;
+// $main:#0190CF;
+$main: #0662ab;
+
+$purple: rgb(43 38 99);
+$pink: #c06;
+$yel: #ff770d;
+$yel2:#ffab1f; 
+$skyblue: #3ebaf3;
+
+$orange:#f38833;
+
+
+.purple {
+
+    color: $purple;
+}
+
+.pink {
+    color: $pink;
+}
+
+.yel {
+    color: $yel;
+}
+
+.skyblue {
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow:  0 4px 3px rgb(19 10 22 / 93%);
+
+}
+
+.blac {
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 2px 3px rgb(12 104 231);
+    // color: #504b4b;
+}
+
+
+.poster {
+
+    // background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(0 184 255) 100%); 
+
+    // background: linear-gradient(90deg, rgb(0, 10, 36) 0%, rgb(0 184 255) 100%); 
+    // background:linear-gradient(to right, rgba(8, 155, 240, 0.7), rgb(29, 22, 22, 0.6)),url(../public/img/bg3.jpg) no-repeat center center fixed;
+    background: linear-gradient(to right, rgb(29, 22, 22, 0.7), rgba(57, 118, 233, 0.5)), url(../public/img/bg3.webp) no-repeat center center/cover;
+
+    // background:url(../public/img/bg3.webp) no-repeat center center/cover,linear-gradient(to right, rgb(29, 22, 22, 0.7), rgba(57, 118, 233, 0.5)) ;
+    background-size: 100%, 51%;
+    margin: 0;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 25rem;
+    display: flex;
+
+
+    // .text {
+    //     // background-color: yellowgreen;
+    //     text-align: left;
+    //     position: relative;
+    //     top: 9.5%;
+    //     left: 5.5%;
+    //     // width: 22rem;
+    //     width: 26%;
+    //     height: 20rem;
+
+
+    //     .readbtn {
+    //         margin-top: 1.5rem;
+    //         padding: 0.8rem 1.7rem;
+    //         font-weight: 550;
+    //         color: white;
+    //         font-size: 1rem;
+    //         border-radius: 0.3rem;
+    //         // background: linear-gradient(to top, #1c5392, #00a3f3) no-repeat padding-box;
+    //         background: linear-gradient(to top, #1861b5, #21e3f7) no-repeat padding-box;
+    //     }
+
+    //     h1 {
+    //         // color: black;
+    //         // color:#504646;
+    //         color: white;
+    //         margin-bottom: 1.2rem;
+    //     }
+
+    //     h2 {
+
+    //         color: #acdffb;
+    //         margin-bottom: 0.5rem;
+    //     }
+    // }
+
+
+    .text {
+        // background-color: yellow;
+        text-align: left;
+        width: 53%;
+        margin: 0;
+        padding-top: 2rem;
+        padding-left: 5.8%;
+
+
+
+        p {
+            line-height: 2.5rem;
+            color: white;
+            font-weight: 500;
+            font-size: 1.3rem;
+            margin: 0;
+            text-shadow: 0 2px 3px rgb(32 13 13);
+
+        }
+
+        span {
+            line-height: 2.7rem;
+            // text-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+            font-family: 'Charis SIL', serif;
+            font-size: 2rem;
+        }
+
+        .yelbtn {
+            padding: 0.3rem 0.9rem;
+            width: 25rem;
+            font-weight: 500;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.4rem;
+            margin: 1.5rem 0 1.9rem 0;
+            border-radius: 5px;
+            background: $yel;
+            color: white;
+        }
+
+        .yelbtn2 {
+            border-left: 400px solid yellow;
+            padding: 0.3rem 3.9rem;
+            margin: 1rem 0 1rem 0;
+        }
+
+        .btn {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 0.6rem 0.9rem;
+            margin: 1rem 1rem 1rem 0;
+            border-radius: 5px;
+            border: none;
+            background: $purple;
+            color: white;
+
+        }
+
+
+        .readbtn {
+            margin-top: 1.5rem;
+            padding: 0.8rem 1.7rem;
+            font-weight: 550;
+            color: white;
+            font-size: 1rem;
+            border-radius: 0.3rem;
+            // background: linear-gradient(to top, #1c5392, #00a3f3) no-repeat padding-box;
+            // background: linear-gradient(to top, #1861b5, #21e3f7) no-repeat padding-box;
+            background-color:rgb(30 129 211);
+            text-shadow: 0 2px 3px rgb(50, 51, 137);
+            
+
+            a{
+                color: white;
+                text-decoration: none;
+            }
+
+        }
+    }
+
+    .img {
+        // background-color: #5c9cc7;
+        width: 29%;
+        height: 95%;
+        position: relative;
+        left: 5rem;
+
+        img {
+            // margin: 0rem 0 0 11rem;
+            // width: 49rem;
+            // height: 95%;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .form {
+        width: 23%;
+        position: absolute;
+        left: 71.2%;
+        margin: 1rem 5.2rem 0 0;
+        // width: 50%;
+
+    }
+
+
+
+}
+
+// =================== Mobile ===================================
+
+@media only screen and (max-width:844px) {
+    .poster {
+        width: 100%;
+        height: 16rem;
+        background-size: 100%, 185%;
+
+    //      .text {
+    //   width: 100%;
+    //   // margin: 2rem 0 0 0rem;
+    //   margin: 0.5rem auto;
+    //   word-wrap: break-word;
+    //   padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+
+    //   p {
+    //     font-size: 0.87rem;
+    //     line-height: 1.6rem;
+
+    //   }
+
+    //   span {
+    //     font-size: 1.35rem;
+    //   }
+
+    //   .yelbtn {
+    //     width: 15rem;
+    //     margin: 1rem 0;
+    //     font-size: 1.15rem;
+    //     padding: 0.3rem 0.3rem;
+    //   }
+
+    //   .btn {
+    //     margin: 0.5rem 0rem;
+    //     display: block;
+    //   }
+
+    // }
+
+
+
+    .text {
+        width: 100%;
+        // margin: 2rem 0 0 0rem;
+        margin: 0.5rem auto;
+        word-wrap: break-word;
+        padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+  
+        p {
+          font-size: 0.65rem;
+          line-height: 1.2rem;
+  
+        }
+  
+        span {
+            display: block;
+          font-size: 1rem;
+          line-height: 1.6rem;
+
+        }
+  
+        .yelbtn {
+          width: 11rem;
+          margin: 0.5rem 0;
+          font-size: 0.7rem;
+          padding: 0.3rem 0.3rem;
+        }
+  
+        .btn {
+          margin: 0.5rem 0rem;
+          display: block;
+        }
+
+
+        .readbtn{
+            margin: 0.5rem 0;
+            font-size: 0.7rem;
+            font-weight: 500;
+            padding: 0.3rem 0.5rem;
+        }
+
+        .skyblue{
+            margin: 0.5rem 0;
+            line-height: 1.2rem;
+            text-shadow: 0 2px 3px rgb(22 28 28);
+            
+        }
+  
+      }
+
+
+
+        .img {
+            width: 55%;
+            left: 0.5rem;
+            top: 0.5rem;
+
+            img {
+                width: 100%;
+                // height: 13rem;
+            }
+        }
+
+        .form {
+            display: none;
+        }
+    }
+}

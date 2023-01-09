@@ -1,0 +1,76 @@
+$bg: #01295c;
+$purple: rgb(43 38 99);
+$pink: #c06;
+$yel: #fe6f00;
+$skyblue: #3ebaf3;
+$green: #248b24d4;
+$nav: #0190cf;
+
+.batchtable {
+    // background-color: yellow;
+    margin: auto;
+    padding: 0.5rem;
+    width: 75vw;
+
+    .table {
+        width: 100%;
+        margin: -1rem 0 4rem 0;
+
+        button {
+            background-color: $green;
+            color: white;
+            border-radius: 5px;
+            width: 7.2rem;
+            height: 2rem;
+        }
+    }
+
+    table,
+    th,
+    td {
+        text-align: center;
+        border: 1px solid #ebd4d4;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        line-height: 3rem;
+    }
+
+    th {
+        font-weight: 500;
+        background-color: $nav;
+        color: white;
+    }
+}
+
+// ========================================= Mobile ============================================
+@media only screen and (max-width:652px) {
+
+    .batchtable {
+        margin: -0.5rem 0rem 2rem 0;
+        padding: 0rem;
+        width: 100%;
+
+        .table {
+            margin: 0rem;
+
+            button {
+                font-size: 0.6rem;
+                width: 2.9rem;
+                height: 1.8rem;
+            }
+        }
+
+
+        th,
+        td {
+            word-spacing: 0rem;
+            font-size: 0.6rem;
+            padding: 0.1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+}

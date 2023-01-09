@@ -1,0 +1,58 @@
+.contactdetail {
+    padding: 2rem 12%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+
+    .call {
+        padding: 1rem;
+    }
+
+    .office {
+        padding: 1rem;
+
+    }
+
+    .email {
+        padding: 1rem;
+
+    }
+
+    .conicon {
+        font-size: 2.2rem;
+        color: rgb(9, 140, 216);
+        animation: bounce 2s ease;
+    }
+
+
+    @keyframes bounce {
+        70% {
+            transform: translateY(0%);
+        }
+
+        80% {
+            transform: translateY(-55%);
+        }
+
+        90% {
+            transform: translateY(0%);
+        }
+
+        95% {
+            transform: translateY(-15%);
+        }
+
+        97% {
+            transform: translateY(0%);
+        }
+
+        99% {
+            transform: translateY(-10%);
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+}

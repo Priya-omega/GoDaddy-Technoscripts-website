@@ -1,0 +1,258 @@
+$orange:#fe6f00;
+
+.review {
+    margin-bottom: 1.15rem;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .reviewbox {
+        background: white;
+
+        .comma {
+            position: relative;
+            left: 0rem;
+            top: 0.8rem;
+            width: 1.4rem;
+            height: 0.9rem;
+        }
+
+        .reviewcontainer1 {
+            width: 100%;
+            // height: 23.5rem;
+            height: auto;
+            // margin: 1rem;
+            display: flex;
+
+
+            .box {
+                // box-shadow: rgba(61, 67, 72, 0.90) 0px 5px 15px;
+                box-shadow: rgb(12 67 169 / 79%) 0px 3px 8px;
+        border-top: 4px solid $orange;
+
+                padding: 0.5rem 1rem 1rem 1rem;
+                // width: 23rem;
+                width: 33%;
+                height: Auto;
+                background: white;
+                margin: 1rem;
+                border-radius: 0px 0px 5px 5px ;
+
+                .section2 {
+                    padding: 0 0 0 1.5rem;
+
+                    p {
+                        margin: 0;
+                    }
+
+                    .leftquote {
+                        font-size: 0.95rem;
+                        color: #837b7b;
+                        margin-right: 0.6rem;
+                        position: relative;
+                        bottom: 0.3rem;
+                    }
+
+                    .rightquote {
+                        color: #837b7b;
+                        font-size: 0.95rem;
+                        margin-left: 0.5rem;
+                        position: relative;
+                        bottom: 0.1rem;
+                    }
+
+                    textarea {
+                        padding: 0.5rem;
+                        border: 1px solid white;
+                        color: rgb(77, 74, 74);
+                        outline: none;
+                        line-height: 1.2rem;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
+
+                    textarea::-webkit-scrollbar {
+                        width: 3px;
+                    }
+
+                    textarea::-webkit-scrollbar-track {
+                        -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+                    }
+
+                    textarea::-webkit-scrollbar-thumb {
+                        background-color: rgb(139, 132, 132);
+                    }
+                }
+            }
+
+            .reviewmainbox {
+                display: flex;
+                margin: 0 0 -0.8rem 0;
+
+                .google {
+                    img {
+                        position: relative;
+                        top: 1.6rem;
+                        width: 1.2rem;
+                        height: 1.2rem;
+                    }
+                }
+
+                .section1 {
+                    width: 90%;
+                    display: flex;
+                    margin: 0.8rem 0 0.8rem 0;
+
+                    .img {
+                        margin: 0 0 0 1.5rem;
+                    }
+
+                    .usericon {
+                        font-size: 3.5rem;
+                        color: #5aa7dd;
+                    }
+
+                    .head {
+                        padding: 0.3rem;
+
+                        h5,
+                        p {
+                            margin: 0.3rem;
+                        }
+
+                        .staricon {
+                            color: rgb(206, 154, 24);
+                        }
+                    }
+                }
+
+
+            }
+
+
+
+        }
+
+
+        .reviewcontainer2 {
+            width: 10rem;
+            height: 9rem;
+            background-color: yellow;
+            margin: 1rem;
+        }
+
+        .reviewcontainer3 {
+            width: 10rem;
+            height: 9rem;
+            background-color: red;
+            margin: 1rem;
+        }
+
+
+    }
+
+
+}
+
+// ========================================================
+
+@media only screen and (max-width:996px) {
+
+
+    .review {
+        margin-bottom: 3rem;
+
+        .reviewbox {
+
+
+            .reviewcontainer1 {
+                display: flex;
+                flex-direction: column;
+                // height: 72rem;
+                margin: 0.5rem 0;
+
+                .comma {
+                    width: 0.8rem;
+                    height: 0.4rem;
+                    left: -0.5rem;
+                }
+
+                .box {
+                    width: 95%;
+                    margin: 0.5rem;
+                    // height: 25rem;
+
+                    .reviewmainbox {
+                        width: 100%;
+
+                        .google {
+                            img {
+                                top: 1.2rem;
+                                left: 0rem;
+                                width: 1.5rem;
+                                height: 1.5rem;
+                            }
+                        }
+
+                        .section1 {
+                            margin: 0.4rem 0 1.2rem 0;
+
+                            .img {
+                                margin: 0rem;
+
+                                .usericon {
+                                    font-size: 3.8rem;
+                                }
+                            }
+
+                            .head {
+                                // margin-top: -0.3rem;
+                                padding: 0.4rem;
+
+                                h5 {
+                                    text-align: left;
+                                    font-size: 1rem;
+                                }
+
+                                p {
+                                    line-height: 0rem;
+                                }
+                            }
+                        }
+
+                    }
+
+                    .section2 {
+                        padding: 0rem;
+
+                        textarea {
+                            width: 100%;
+                            font-size: 0.7rem;
+                        }
+                    }
+
+                }
+            }
+
+            .img1 {
+                margin: 0 0 0 2rem;
+                width: 15rem;
+                height: 14rem;
+            }
+
+
+            .img2 {
+                margin: 0 0 0 0rem;
+                width: 18rem;
+                height: 14rem;
+            }
+
+
+        }
+    }
+
+
+
+
+
+}
